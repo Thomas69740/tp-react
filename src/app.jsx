@@ -5,8 +5,8 @@ import Toolbar from 'material-ui/Toolbar';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TableExample from './tab'
 
-
 export default class App extends React.Component {
+
   render() {
     return (
 			<MuiThemeProvider>
@@ -16,6 +16,7 @@ export default class App extends React.Component {
 						iconClassNameRight="muidocs-icon-navigation-expand-more"
 					/>
 					<TableExample/>
+
 				</div>
 			</MuiThemeProvider>
     )
